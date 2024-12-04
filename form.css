@@ -1,17 +1,12 @@
 .form-container {
     max-width: 700px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 21px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 3px 3px 1px var(--secondory-color);
     box-shadow: 4px 4px 8px rgba(30, 29, 29, 0.3);
-    /* position: absolute; */
-    top: 20%; 
-    /* display: none; 
-    scale: 0;
-    opacity: 0;
-    width: 0; */
+    
 }
 .active{
     width: 100%;
