@@ -67,11 +67,9 @@
     </nav>
     
 
-
     <section class="dashboard">
         <div class="top">
-            <i class="uil uil-bars sidebar-toggle"></i>
-          
+            <i class="uil uil-bars sidebar-toggle"></i>       
         </div>
         <div class="table-container">
             <div>
@@ -97,15 +95,12 @@
 
 
                 <?php 
-   require 'connectdb.php' ;
+   require_once 'connectdb.php' ;
     $query = "SELECT * FROM products";
 $result = mysqli_query($conn, $query);
 
 // Fetch products as an array
 $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-// Close connection
-mysqli_close($conn);
 
 // Display products
 foreach ($products as $product) { ?>
@@ -130,7 +125,12 @@ foreach ($products as $product) { ?>
 
   </tr>
  
-<?php } ?>
+<?php } 
+
+// Close connection
+mysqli_close($conn);
+
+?>
 
 <?php
 
@@ -146,8 +146,6 @@ if (isset($_GET['btn'])) {
   exit;
 }
 ?>
-
-
 
                 </tbody>
             </table>
