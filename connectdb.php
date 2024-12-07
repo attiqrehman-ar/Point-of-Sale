@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-$conn = mysqli_connect("localhost", "root", "", "inventory management");
+$conn = mysqli_connect("localhost", "root", "", "Point_of_sale");
       
 // Check connection
 if (!$conn) {
