@@ -14,7 +14,10 @@
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <title>Admin Dashboard Panel</title> 
+    <title>Product update</title> 
+
+        <script src="script.js" differ></script>
+
 </head>
 <body>
     <nav>
@@ -154,6 +157,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 
-    <script src="script.js"></script>
 </body>
 </html>
