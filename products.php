@@ -12,8 +12,11 @@
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <title>Admin Dashboard Panel</title> 
+    <title>Products </title> 
+    
+    <script src="script.js" differ></script>
 </head>
+    
 <body>
     <nav>
         <div class="logo-name">
@@ -56,12 +59,13 @@
             </ul>
             
             <ul class="logout-mode">
-            <li><a href="logout.php"> 
-        <i class="uil uil-signout"></i> 
-        <span class="link-name">Logout</span> 
-    </a></li>
-    
-
+            <li>
+                <a href="logout.php"> 
+                    <i class="uil uil-signout"></i> 
+                    <span class="link-name">Logout</span> 
+                </a>
+            </li>
+                
             </ul>
         </div>
     </nav>
@@ -134,9 +138,6 @@ mysqli_close($conn);
 
 <?php
 
-require 'connectdb.php';
-
-// if (isset($_GET['id'])) {
 if (isset($_GET['btn'])) {
   $id = $_GET['id'];
   $query = "DELETE FROM products WHERE id = '$id'";
@@ -152,6 +153,5 @@ if (isset($_GET['btn'])) {
         </div>
     </section>
 
-    <script src="script.js"></script>
 </body>
 </html>
