@@ -13,7 +13,7 @@
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <title>Admin Dashboard Panel</title> 
+    <title>Update category</title> 
 </head>
 <body>
     <nav>
@@ -21,7 +21,7 @@
             <div class="logo-image">
                 <img src="pictures/logo.jpeg" alt="">
             </div>
-            <span class="logo_name">IMS</span>
+            <span class="logo_name">POS</span>
         </div>
 
         <div class="menu-items">
