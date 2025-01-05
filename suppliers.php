@@ -20,7 +20,7 @@
             <div class="logo-image">
                 <img src="pictures/logo.jpeg" alt="">
             </div>
-            <span class="logo_name">IMS</span>
+            <span class="logo_name">Suppliers screen</span>
         </div>
 
         <div class="menu-items">
