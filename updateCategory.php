@@ -21,7 +21,7 @@
             <div class="logo-image">
                 <img src="pictures/logo.jpeg" alt="">
             </div>
-            <span class="logo_name">POS</span>
+            <span class="logo_name">IMS</span>
         </div>
 
         <div class="menu-items">
