@@ -1,19 +1,11 @@
 .form-container {
     max-width: 700px;
     margin: 20px auto;
-    padding: 21px;
+    padding: 20px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 3px 3px 1px var(--secondory-color);
     box-shadow: 4px 4px 8px rgba(30, 29, 29, 0.3);
-    
-}
-.active{
-    width: 100%;
-    scale: 1;
-    opacity: 1;
-    display: block;
-    transition: all 2s ease-in-out; 
 }
 .category-form{
     margin-top: 10%;
